@@ -1,1 +1,1 @@
-sshpass -p Advanced@2019 ssh -tt purush@82.13.42.180 -L5037:localhost:5037 -L4723:localhost:4723
+sshpass -p "Advanced@2019" ssh -tt purush@82.13.42.180 -o StrictHostKeyChecking=no -L5037:localhost:5037 -L4723:localhost:4723
