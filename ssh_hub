@@ -1,1 +1,7 @@
+#!/bin/bash
+PR1=`sudo lsof -i tcp:5037 | wc -l `
+PR2=`sudo lsof -i tcp:4723 | wc -l `
+if [ $PR1 -eq 0 ] || [ $PR2 -eq 0 ] ; 
+then
 sshpass -p "Advanced@2019" ssh -tt purush@82.13.42.180 -o StrictHostKeyChecking=no -L5037:localhost:5037 -L4723:localhost:4723
+fi

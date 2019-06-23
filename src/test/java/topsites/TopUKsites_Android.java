@@ -175,9 +175,11 @@ public class TopUKsites_Android {
 		capabilities.setCapability("platformName", "Android");
 		capabilities.setCapability("deviceName", deviceSerialNoToUse);
 		capabilities.setCapability("udid", deviceSerialNoToUse);
-		capabilities.setCapability("appPackage", "com.samsung.networkui");
+		#capabilities.setCapability("appPackage", "com.samsung.networkui");
+		capabilities.setCapability("appPackage", "com.samsung.android.app.telephonyui");
 		capabilities.setCapability("automationName","Appium");
-		capabilities.setCapability("appActivity", "com.samsung.networkui.MobileNetworkSettings");
+		#capabilities.setCapability("appActivity", "com.samsung.networkui.MobileNetworkSettings");
+		capabilities.setCapability("appActivity", "com.samsung.android.app.telephonyui.netsettings.ui.NetSettingsActivity");
 
 		try {
 			androiddriver = new AndroidDriver(new URL(Appiumservice.getUrl().toString()), capabilities);
