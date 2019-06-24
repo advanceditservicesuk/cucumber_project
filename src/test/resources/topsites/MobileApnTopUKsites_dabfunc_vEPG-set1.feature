@@ -10,9 +10,9 @@ Feature: Using Android test Mobile Data Connections FULL set1
 
     Examples: 
       | apnname                       | url                      | title |
-      | ibrowse-full-vepg-vpgw-2      | http://xhaus.com/headers | xhaus |
-      | ibrowse-full-vepg-vpgw-2-same | https://www.bbc.co.uk/   | bbc   |
-      | idata-full-vepg-vpgw-2        | http://xhaus.com/headers | xhaus |
-      | idata-full-vepg-vpgw-2-same   | https://www.bbc.co.uk/   | bbc   |
-      | isetup-full-vepg-vpgw-2       | http://xhaus.com/headers | xhaus |
-      | isetup-full-vepg-vpgw-2-same  | https://www.bbc.co.uk/   | bbc   |
+      | ibrowse-func-vepg-vpgw-2      | http://xhaus.com/headers | xhaus |
+      | ibrowse-func-vepg-vpgw-2-same | https://www.bbc.co.uk/   | bbc   |
+      | idata-func-vepg-vpgw-2        | http://xhaus.com/headers | xhaus |
+      | idata-func-vepg-vpgw-2-same   | https://www.bbc.co.uk/   | bbc   |
+      | isetup-func-vepg-vpgw-2       | http://xhaus.com/headers | xhaus |
+      | isetup-func-vepg-vpgw-2-same  | https://www.bbc.co.uk/   | bbc   |
