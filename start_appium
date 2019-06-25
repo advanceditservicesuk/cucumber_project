@@ -1,0 +1,13 @@
+#!/bin/bash
+export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin
+export PATH=$PATH:~/bin
+export ANDROID_HOME=/Users/purush/Library/Android/sdkexport PATH=$PATH:$ANDROID_HOME/tools
+PR2=` lsof -i tcp:4723 | wc -l `
+if [ $PR2 -eq 0 ] then
+echo start appium 
+/usr/local/bin/appium   > appium.log 2>&1  &
+else
+echo Do nothing ... 
+# echo stop appium
+# lsof -i tcp:4723 |awk 'NR > 1 {print $2}' | xargs kill -15
+fi
