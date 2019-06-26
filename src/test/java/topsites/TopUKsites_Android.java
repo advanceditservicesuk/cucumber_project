@@ -1468,7 +1468,7 @@ public static boolean linkExists(String URLName){
 			String mmsc, String mmsc_proxy, String mms_port, String proxy, String port) {
 		String connection_xpath = "//android.widget.TextView[@text='Connections']";
 		String access_point_xpath = "//android.widget.TextView[@text='Access Point Names']";
-		String add_button_xpath = "//android.widget.Button[@text = 'ADD']";
+		String add_button_xpath = "//android.widget.Button[@text = 'Add']";
 		String apn_name_xpath = "//android.widget.TextView[@text='Name']";
 		String edit_text_xpath = "//android.widget.EditText";
 		String ok_button_xpath = "//android.widget.Button[@text='OK']";
