@@ -1476,7 +1476,7 @@ public static boolean linkExists(String URLName){
 		String apn_xpath = "//android.widget.TextView[@text='APN']";
 		String user_name_xpath = "//android.widget.TextView[@text='Username']";
 		String pswd_xpath = "//android.widget.TextView[@text='Password']";
-		String click_options_xpath = "//android.widget.Button[@content-desc='More options']";
+		String click_options_xpath = "//android.widget.ImageView[@content-desc='More options']";
 		String save_xpath = "//android.widget.TextView[@text='Save']";
 		String mmsc_xpath = "//android.widget.TextView[@text='MMSC']";
 		String mms_proxy_xpath = "//android.widget.TextView[@text='MMS proxy']";
@@ -1664,9 +1664,9 @@ public static boolean linkExists(String URLName){
 	@Given("^Using Android device and serialno \"(.*?)\" delete all apns$")
 	public void apn_clear_down(String deviceSerialNoToUse) {
 
-		String moreoptions_xpath = "//android.widget.Button[@content-desc='More options']";
+		String moreoptions_xpath = "//android.widget.ImageView[@content-desc='More options']";
 		String access_point_xpath = "//android.widget.TextView[@text='Access Point Names']";
-		String reset = "//android.widget.Button[@text='RESET']";
+		String reset = "//android.widget.Button[@text='Reset']";
 		String reset_xpath = "//android.widget.TextView[@text='Reset to default']";
 
 		DesiredCapabilities capabilities = new DesiredCapabilities();
