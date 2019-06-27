@@ -2,7 +2,7 @@
 Feature: Using Android device add list of apn to the device
 
   Scenario Outline: Using Android device add list of apn to the device
-    Given Using Android device and serialno "ce09171975a12e1405" add new apn using following values "<apnname>","<apn>","<username>","<password>","<mmsc>","<mmsc_proxy>","<mms_port>","<proxy>" and "<port>"
+    Given Using Android device and serialno "ce081718d5f99e1302" add new apn using following values "<apnname>","<apn>","<username>","<password>","<mmsc>","<mmsc_proxy>","<mms_port>","<proxy>" and "<port>"
 
     Examples: 
       | apnname                     | apn           | username                     | password | mmsc                                                | mmsc_proxy   | mms_port | proxy          | port |
