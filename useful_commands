@@ -1,0 +1,6 @@
+   sed -i 's/2adbc704fc0d7ece/ce09171975a12e1405/g' *.feature 
+   git status
+   git add -a .
+   git commit -m " new device id " .
+   git push 
+

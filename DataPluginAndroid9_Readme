@@ -1,0 +1,17 @@
+   compileSdkVersion 28
+    buildToolsVersion '25.0.0'
+
+    defaultConfig {
+        applicationId "com.saschahuth.imeigetter"
+        minSdkVersion 28
+        targetSdkVersion 25 //need to stay below 23 here, otherwise we'd have to grant the READ_PHONE_STATE permission at runtime
+        versionCode 1
+        versionName "1.0"
+    }
+
+
+Set app permissions 
+
+Call Logs
+Location
+Telephone 
