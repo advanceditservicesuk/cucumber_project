@@ -10,12 +10,12 @@ Feature: Using Android test Mobile Data Connections  FULL set2
 
     Examples: 
       | apnname                       | url                      | title |
-      | m-bb-full-vepg-vpgw-2                | http://xhaus.com/headers | xhaus |
-      | m-bb-full-vepg-vpgw-2-use-same-apn   | https://www.bbc.co.uk/   | bbc   |
-      | mobile-full-vepg-vpgw-2              | http://xhaus.com/headers | xhaus |
-      | mobile-full-vepg-vpgw-2-use-same-apn | https://www.bbc.co.uk/   | bbc   |
-      | modem-full-vepg-vpgw-2               | http://xhaus.com/headers | xhaus |
-      | modem-full-vepg-vpgw-2-use-same-apn  | https://www.bbc.co.uk/   | bbc   |
-      | mvne1-full-vepg-vpgw-2                 | http://xhaus.com/headers | xhaus |
-      | mvne1-full-vepg-vpgw-2-use-same-apn    | https://www.bbc.co.uk/   | bbc   |
+      | m-bb-full-epg2                | http://xhaus.com/headers | xhaus |
+      | m-bb-full-epg2-use-same-apn   | https://www.bbc.co.uk/   | bbc   |
+      | mobile-full-epg2              | http://xhaus.com/headers | xhaus |
+      | mobile-full-epg2-use-same-apn | https://www.bbc.co.uk/   | bbc   |
+      | modem-full-epg2               | http://xhaus.com/headers | xhaus |
+      | modem-full-epg2-use-same-apn  | https://www.bbc.co.uk/   | bbc   |
+      | mvne1-full-epg2                 | http://xhaus.com/headers | xhaus |
+      | mvne1-full-epg2-use-same-apn    | https://www.bbc.co.uk/   | bbc   |
 
