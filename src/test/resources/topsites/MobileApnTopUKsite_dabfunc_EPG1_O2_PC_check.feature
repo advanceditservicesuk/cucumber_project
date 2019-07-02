@@ -49,8 +49,6 @@ Feature: Using Android test Mobile Data Connections FUNC PC check
  | idata-func-epg1-same-apn        |  http://www.sigmaspy.com/| Parental |
  | idata-func-epg1-same-apn        |  http://www.hydrodaze.co.uk/| Parental |
  | idata-func-epg1-same-apn        |  http://www.testurl.rulespace.com/o2grey/en| Parental |
- | idata-func-epg1-same-apn        |  http://www.facebook.com/death-to-america-israel-364924780293889 | Parental |
- | idata-func-epg1-same-apn        |  http://www.facebook.com/death-to-america-israel-364924780293889&_rdr | Parental |
  | idata-func-epg1-same-apn        |  http://www.imagebam.com/image/d1c52e1013805Parental | Parental |
  | idata-func-epg1-same-apn        |  http://www.backpage.co.uk/ | Parental |
  | idata-func-epg1-same-apn        |  http://www.siska.tv/| Parental |
