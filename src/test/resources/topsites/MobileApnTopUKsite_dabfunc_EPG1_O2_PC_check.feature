@@ -36,55 +36,6 @@ Feature: Using Android test Mobile Data Connections FUNC PC check
  | idata-func-epg1-same-apn        |  http://www.hentastic.co.uk/| Parental |
  | idata-func-epg1-same-apn        |  http://www.dea-enforced.incompass.netstar-inc.com/| Parental |
  | idata-func-epg1-same-apn        |  http://www.dea-extreme.incompass.netstar-inc.com/| Parental |
- | idata-func-epg1-same-apn        |  http://www.wernethschool.com/| Parental |
- | idata-func-epg1-same-apn        |  http://www.deepingschool.org.uk/| Parental |
- | idata-func-epg1-same-apn        |  http://www.fairleyhouse.org.uk/| Parental |
- | idata-func-epg1-same-apn        |  http://www.hlc.org.uk/| Parental |
- | idata-func-epg1-same-apn        |  http://www.loreto.ac.uk/| Parental |
- | idata-func-epg1-same-apn        |  http://www.stvincent.ac.uk/| Parental |
- | idata-func-epg1-same-apn        |  http://www.bartoncourt.org/| Parental |
- | idata-func-epg1-same-apn        |  http://www.bostonhighschool.co.uk/| Parental |
- | idata-func-epg1-same-apn        |  http://www.castlecourt.com/| Parental |
- | idata-func-epg1-same-apn        |  http://www.croftschool.co.uk/| Parental |
- | idata-func-epg1-same-apn        |  http://www.kirkhamgrammar.co.uk/| Parental |
- | idata-func-epg1-same-apn        |  http://www.londonscottish.com/| Parental |
- | idata-func-epg1-same-apn        |  http://www.rushmoorschool.co.uk/| Parental |
- | idata-func-epg1-same-apn        |  http://www.scalbyschool.org.uk/| Parental |
- | idata-func-epg1-same-apn        |  http://www.stover.co.uk/| Parental |
- | idata-func-epg1-same-apn        |  http://www.thehollins.com/| Parental |
- | idata-func-epg1-same-apn        |  http://www.anfieldforever.liverpoolfc.com/| Parental |
- | idata-func-epg1-same-apn        |  http://www.mail.denstonecollege.org/| Parental |
- | idata-func-epg1-same-apn        |  http://www.parents.denstonecollege.org/| Parental |
- | idata-func-epg1-same-apn        |  http://www.shop.quins.co.uk/| Parental |
- | idata-func-epg1-same-apn        |  http://www.webmail.cherwell.oxon.sch.uk/| Parental |
- | idata-func-epg1-same-apn        |  http://www.budmouth.dorset.sch.uk/| Parental |
- | idata-func-epg1-same-apn        |  http://www.cherwell.oxon.sch.uk/| Parental |
- | idata-func-epg1-same-apn        |  http://www.crompton.oldham.sch.uk/| Parental |
- | idata-func-epg1-same-apn        |  http://www.crusadersfc.com/| Parental |
- | idata-func-epg1-same-apn        |  http://www.cumbria.ac.uk/| Parental |
- | idata-func-epg1-same-apn        |  http://www.disneyclips.com/| Parental |
- | idata-func-epg1-same-apn        |  http://www.dronfield.derbyshire.sch.uk/| Parental |
- | idata-func-epg1-same-apn        |  http://www.fieldmuseum.org/| Parental |
- | idata-func-epg1-same-apn        |  http://www.fromecollege.somerset.sch.uk/| Parental |
- | idata-func-epg1-same-apn        |  http://www.fulhamfc.com/| Parental |
- | idata-func-epg1-same-apn        |  http://www.fullbrook.surrey.sch.uk/| Parental |
- | idata-func-epg1-same-apn        |  http://www.gateway.ac.uk/| Parental |
- | idata-func-epg1-same-apn        |  http://www.ideer.deerparkschool.net/| Parental |
- | idata-func-epg1-same-apn        |  http://www.knex.com/| Parental |
- | idata-func-epg1-same-apn        |  http://www.natgeokids.com/| Parental |
- | idata-func-epg1-same-apn        |  http://www.nonsuch.sutton.sch.uk/| Parental |
- | idata-func-epg1-same-apn        |  http://www.notredame-high.co.uk/| Parental |
- | idata-func-epg1-same-apn        |  http://www.queenelizabeths.derbyshire.sch.uk/| Parental |
- | idata-func-epg1-same-apn        |  http://www.raynespark.merton.sch.uk/| Parental |
- | idata-func-epg1-same-apn        |  http://www.roalddahl.com/| Parental |
- | idata-func-epg1-same-apn        |  http://www.st-andrews.surrey.sch.uk/| Parental |
- | idata-func-epg1-same-apn        |  http://www.stpaulsacademy.org.uk/| Parental |
- | idata-func-epg1-same-apn        |  http://www.thattoheath.st-helens.sch.uk/| Parental |
- | idata-func-epg1-same-apn        |  http://www.thefa.com/| Parental |
- | idata-func-epg1-same-apn        |  http://www.thunderbirds.com/| Parental |
- | idata-func-epg1-same-apn        |  http://www.wildern.hants.sch.uk/| Parental |
- | idata-func-epg1-same-apn        |  http://www.woodrushhigh.worcs.sch.uk/| Parental |
- | idata-func-epg1-same-apn        |  http://www.u13-white.incompass.netstar-inc.com/| Parental |
  | idata-func-epg1-same-apn        |  http://www.mobile-spy.com/| Parental |
  | idata-func-epg1-same-apn        |  http://www.o2-giffgaff-blacklist.incompass.netstar-inc.com/| Parental |
  | idata-func-epg1-same-apn        |  http://www.dip.cc/| Parental |
