@@ -10,7 +10,7 @@ Feature: Using Android test Mobile Data Connections FUNC PC check
 
     Examples: 
       | apnname                       | url                      | title |
-| idata-func-epg1-same-apn        |  http://www.danielpipes.org/ | 18 |
+| idata-func-epg1        |  http://www.danielpipes.org/ | 18 |
  | idata-func-epg1-same-apn        |  http://www.grand-national.me.uk/ | 18 |
  | idata-func-epg1-same-apn        |  http://www.israeldefender.com/ | 18 |
  | idata-func-epg1-same-apn        |  http://www.veraplayafriends.com/ | 18 |
