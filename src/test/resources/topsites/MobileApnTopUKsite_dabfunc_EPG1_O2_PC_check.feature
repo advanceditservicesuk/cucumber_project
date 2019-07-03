@@ -37,10 +37,10 @@ Feature: Using Android test Mobile Data Connections FUNC PC profile check
  | idata-func-epg1-same-apn        |  http://www.dea-extreme.incompass.netstar-inc.com/| Parental |
  | idata-func-epg1-same-apn        |  http://www.mobile-spy.com/| blocked |
  | idata-func-epg1-same-apn        |  http://www.o2-giffgaff-blacklist.incompass.netstar-inc.com/| blocked |
- | idata-func-epg1-same-apn        |  http://www.dip.cc/| Parental |
+ | idata-func-epg1-same-apn        |  http://www.dip.cc/| blocked |
  | idata-func-epg1-same-apn        |  http://www.thestudentguide.com/survival_guide/article/student_drinking_games_hi_bob | Parental |
  | idata-func-epg1-same-apn        |  http://www.o2-alcoholtokids.incompass.netstar-inc.com/| Parental |
- | idata-func-epg1-same-apn        |  http://www.mobile-spy.com/| Parental |
+ | idata-func-epg1-same-apn        |  http://www.mobile-spy.com/| blocked |
  | idata-func-epg1-same-apn        |  http://www.o2-blacklist.incompass.netstar-inc.com/| blocked |
  | idata-func-epg1-same-apn        |  http://www.dip.cc/| blocked |
  | idata-func-epg1-same-apn        |  http://www.deviantart.com/| Parental |
