@@ -22,7 +22,6 @@ Feature: Using Android test Mobile Data Connections FUNC PC check
  | idata-func-epg1-same-apn        |  http://www.marijuana-anonymous.org.uk/ | Parental |
  | idata-func-epg1-same-apn        |  http://www.testurl.rulespace.com/o2bw/en | Parental |
  | idata-func-epg1-same-apn        |  http://www.thecompliancealliance.co.uk/ | Parental |
- | idata-func-epg1-same-apn        |  http://www.facebook.com/edgarblog/ | Parental |
  | idata-func-epg1-same-apn        |  http://www.saucyjena.com/| Parental |
  | idata-func-epg1-same-apn        |  http://www.nsra.co.uk/| Parental |
  | idata-func-epg1-same-apn        |  http://www.gamehacking.org/| Parental |
