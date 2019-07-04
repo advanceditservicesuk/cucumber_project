@@ -1,141 +1,141 @@
  @mobile
 Feature: Using Android test Mobile Data Connections FUNC NDS profile check
 
-  Scenario Outline: Using Android device check mobile apn "<apnname>"  by visting UK site "<title>".
-    And Using Android device serialno "2adbc704fc0d7ece" set apn "<apnname>"
-    And Check mobile data connection for serialno "2adbc704fc0d7ece"
-    And Dismiss Android Alerts
-    And Using Android device serialno "2adbc704fc0d7ece" open chrome
-    And open browser and enter url "<url>" and check if page loaded and contains page title "<title>"
+ParentalScenario Outline: Using Android device check mobile apn "<apnname>"Parentalby visting UK site "<title>".
+ParentalParentalAnd Using Android device serialno "2adbc704fc0d7ece" set apn "<apnname>"
+ParentalParentalAnd Check mobile data connection for serialno "2adbc704fc0d7ece"
+ParentalParentalAnd Dismiss Android Alerts
+ParentalParentalAnd Using Android device serialno "2adbc704fc0d7ece" open chrome
+ParentalParentalAnd open browser and enter url "<url>" and check if page loaded and contains page title "<title>"
 
-    Examples:
-| apnname                       | url                      | title |
-| idata-func-epg1 | http://fakepassport.info |  | 
-| idata-func-epg1-same-apn  | http://www.drug-testing-detox.com |  | 
-| idata-func-epg1-same-apn  | http://rxlist.com |  | 
-| idata-func-epg1-same-apn  | http://www.marijuana.com |  | 
-| idata-func-epg1-same-apn  | http://www.terroristwebsites.info |  | 
-| idata-func-epg1-same-apn  | http://smith-wesson.com |  | 
-| idata-func-epg1-same-apn  | http://kkk.com |  | 
-| idata-func-epg1-same-apn  | http://peacefulpillhandbook.com |  | 
-| idata-func-epg1-same-apn  | http://liberaladvocate.typepad.com |  | 
-| idata-func-epg1-same-apn  | http://xhamster.com |  | 
-| idata-func-epg1-same-apn  | http://www.companionsescorts.com |  | 
-| idata-func-epg1-same-apn  | http://boodigo.com |  | 
-| idata-func-epg1-same-apn  | http://mirror-h.org |  | 
-| idata-func-epg1-same-apn  | http://anonymizer.com |  | 
-| idata-func-epg1-same-apn  | http://webcache.googleusercontent.com |  | 
-| idata-func-epg1-same-apn  | http://translate.google.com |  | 
-| idata-func-epg1-same-apn  | http://match.com |  | 
-| idata-func-epg1-same-apn  | http://mtnmatchmaking.com |  | 
-| idata-func-epg1-same-apn  | http://finance.yahoo.com |  | 
-| idata-func-epg1-same-apn  | http://etrade.com |  | 
-| idata-func-epg1-same-apn  | http://bankofamerica.com |  | 
-| idata-func-epg1-same-apn  | http://irpoker.com |  | 
-| idata-func-epg1-same-apn  | http://calottery.com |  | 
-| idata-func-epg1-same-apn  | http://piratesarena.net |  | 
-| idata-func-epg1-same-apn  | http://rustguides.com |  | 
-| idata-func-epg1-same-apn  | http://ebay.com |  | 
-| idata-func-epg1-same-apn  | http://www.amazon.com |  | 
-| idata-func-epg1-same-apn  | http://rent.com |  | 
-| idata-func-epg1-same-apn  | http://pricewatch.com |  | 
-| idata-func-epg1-same-apn  | http://lingr.com |  | 
-| idata-func-epg1-same-apn  | http://aim.com |  | 
-| idata-func-epg1-same-apn  | http://gmail.com |  | 
-| idata-func-epg1-same-apn  | http://freelists.org |  | 
-| idata-func-epg1-same-apn  | http://4chan.org |  | 
-| idata-func-epg1-same-apn  | http://python-forum.org |  | 
-| idata-func-epg1-same-apn  | http://www.blogger.com |  | 
-| idata-func-epg1-same-apn  | http://zedge.net/wallpapers/ |  | 
-| idata-func-epg1-same-apn  | http://download.com |  | 
-| idata-func-epg1-same-apn  | http://dropbox.com |  | 
-| idata-func-epg1-same-apn  | http://netflix.com |  | 
-| idata-func-epg1-same-apn  | http://indeed.com |  | 
-| idata-func-epg1-same-apn  | http://www.careerinfonet.org |  | 
-| idata-func-epg1-same-apn  | http://specialfriedrice.net |  | 
-| idata-func-epg1-same-apn  | http://breastcancermarathon.com |  | 
-| idata-func-epg1-same-apn  | http://whatstrending.com |  | 
-| idata-func-epg1-same-apn  | http://penthousemagazine.com |  | 
-| idata-func-epg1-same-apn  | http://marlboro.com |  | 
-| idata-func-epg1-same-apn  | http://rooseveltdenver.com |  | 
-| idata-func-epg1-same-apn  | http://johnniewalker.com |  | 
-| idata-func-epg1-same-apn  | http://caffieri.com |  | 
-| idata-func-epg1-same-apn  | http://cosplay.com |  | 
-| idata-func-epg1-same-apn  | http://realvoodoos.com |  | 
-| idata-func-epg1-same-apn  | http://parenting.com |  | 
-| idata-func-epg1-same-apn  | http://mlb.com |  | 
-| idata-func-epg1-same-apn  | http://espn.com |  | 
-| idata-func-epg1-same-apn  | http://www.divorcesupport.com/ |  | 
-| idata-func-epg1-same-apn  | http://tripadvisor.com |  | 
-| idata-func-epg1-same-apn  | http://asta.org |  | 
-| idata-func-epg1-same-apn  | http://rtd-denver.com |  | 
-| idata-func-epg1-same-apn  | http://marriott.com |  | 
-| idata-func-epg1-same-apn  | http://www.spinninrecords.com |  | 
-| idata-func-epg1-same-apn  | http://madamepoot.com |  | 
-| idata-func-epg1-same-apn  | http://celebritynetworth.com |  | 
-| idata-func-epg1-same-apn  | http://goodfoodgourmet.com |  | 
-| idata-func-epg1-same-apn  | http://broadwaycomedyclub.com |  | 
-| idata-func-epg1-same-apn  | http://scborromeo.org |  | 
-| idata-func-epg1-same-apn  | http://religioustolerance.org |  | 
-| idata-func-epg1-same-apn  | http://politifact.com |  | 
-| idata-func-epg1-same-apn  | http://pubmatic.com |  | 
-| idata-func-epg1-same-apn  | http://allcanadacontests.com |  | 
-| idata-func-epg1-same-apn  | http://automotive.com |  | 
-| idata-func-epg1-same-apn  | http://accenture.com |  | 
-| idata-func-epg1-same-apn  | http://microsoft.com |  | 
-| idata-func-epg1-same-apn  | http://newlosangeles.org |  | 
-| idata-func-epg1-same-apn  | http://gov.ph |  | 
-| idata-func-epg1-same-apn  | http://www.cpmc.org |  | 
-| idata-func-epg1-same-apn  | http://voip.com |  | 
-| idata-func-epg1-same-apn  | http://sealswcc.com |  | 
-| idata-func-epg1-same-apn  | http://utorrent.com |  | 
-| idata-func-epg1-same-apn  | http://knittinghelp.com |  | 
-| idata-func-epg1-same-apn  | http://wikipedia.org |  | 
-| idata-func-epg1-same-apn  | http://google.com |  | 
-| idata-func-epg1-same-apn  | http://tradesexualhealth.com |  | 
-| idata-func-epg1-same-apn  | http://groupme.com |  | 
-| idata-func-epg1-same-apn  | http://klab.com |  | 
-| idata-func-epg1-same-apn  | http://cloudflare.com |  | 
-| idata-func-epg1-same-apn  | http://pbskids.org |  | 
-| idata-func-epg1-same-apn  | http://lingeriefw.com |  | 
-| idata-func-epg1-same-apn  | http://aspenartmuseum.org |  | 
-| idata-func-epg1-same-apn  | http://hostgator.com |  | 
-| idata-func-epg1-same-apn  | http://madd.org |  | 
-| idata-func-epg1-same-apn  | http://flickr.com |  | 
-| idata-func-epg1-same-apn  | http://zedge.net/ringtones/ |  | 
-| idata-func-epg1-same-apn  | http://fashionspot.com |  | 
-| idata-func-epg1-same-apn  | http://appstore.com |  | 
-| idata-func-epg1-same-apn  | http://japaneseemoticons.net |  | 
-| idata-func-epg1-same-apn  | http://verizonwireless.com |  | 
-| idata-func-epg1-same-apn  | http://lancasterag.com |  | 
-| idata-func-epg1-same-apn  | http://architecture.com |  | 
-| idata-func-epg1-same-apn  | http://liuna.org |  | 
-| idata-func-epg1-same-apn  | http://ebooks.com |  | 
-| idata-func-epg1-same-apn  | http://dnsdynamic.org |  | 
-| idata-func-epg1-same-apn  | http://aghepodlln |  | 
-| idata-func-epg1-same-apn  | http://law.com |  | 
-| idata-func-epg1-same-apn  | http://boulderdowntown.com |  | 
-| idata-func-epg1-same-apn  | http://time.com |  | 
-| idata-func-epg1-same-apn  | http://chicagoveterinaryemergency.com |  | 
-| idata-func-epg1-same-apn  | http://123freemovies.net |  | 
-| idata-func-epg1-same-apn  | http://192.168.1.1 |  | 
-| idata-func-epg1-same-apn  | http://mequonnaturepreserve.org |  | 
-| idata-func-epg1-same-apn  | http://sciencemag.org |  | 
-| idata-func-epg1-same-apn  | http://aimovement.org |  | 
-| idata-func-epg1-same-apn  | http://up.com |  | 
-| idata-func-epg1-same-apn  | http://www.hofferphoto.com/ |  | 
-| idata-func-epg1-same-apn  | http://www.dmns.org/ |  | 
-| idata-func-epg1-same-apn  | http://www.khanacademy.org/ |  | 
-| idata-func-epg1-same-apn  | http://www.swarmapp.com |  | 
-| idata-func-epg1-same-apn  | http://www.facebook.com |  | 
-| idata-func-epg1-same-apn  | http://www.linkedin.com |  | 
-| idata-func-epg1-same-apn  | http://www.twitter.com |  | 
-| idata-func-epg1-same-apn  | http://www.youtube.com |  | 
-| idata-func-epg1-same-apn  | http://www.instagram.com |  | 
-| idata-func-epg1-same-apn  | http://www.tumblr.com |  | 
-| idata-func-epg1-same-apn  | http://plus.google.com |  | 
-| idata-func-epg1-same-apn  | http://www.pinterest.com |  | 
-| idata-func-epg1-same-apn  | http://www.vine.com |  | 
-| idata-func-epg1-same-apn  | http://www.ask.fm |  | 
-| idata-func-epg1-same-apn  | http://yikyakapp.com |  | 
-| idata-func-epg1-same-apn  | http://www.wordpress.com |  | 
+ParentalParentalExamples:
+| apnnameParentalParentalParentalParentalParentalParentalParentalParentalParentalParentalParental | urlParentalParentalParentalParentalParentalParentalParentalParentalParentalParentalParental| title |
+| idata-func-epg1 | http://fakepassport.info |Parental| 
+| idata-func-epg1-same-apnParental| http://www.drug-testing-detox.com |Parental| 
+| idata-func-epg1-same-apnParental| http://rxlist.com |Parental| 
+| idata-func-epg1-same-apnParental| http://www.marijuana.com |Parental| 
+| idata-func-epg1-same-apnParental| http://www.terroristwebsites.info |Parental| 
+| idata-func-epg1-same-apnParental| http://smith-wesson.com |Parental| 
+| idata-func-epg1-same-apnParental| http://kkk.com |Parental| 
+| idata-func-epg1-same-apnParental| http://peacefulpillhandbook.com |Parental| 
+| idata-func-epg1-same-apnParental| http://liberaladvocate.typepad.com |Parental| 
+| idata-func-epg1-same-apnParental| http://xhamster.com |Parental| 
+| idata-func-epg1-same-apnParental| http://www.companionsescorts.com |Parental| 
+| idata-func-epg1-same-apnParental| http://boodigo.com |Parental| 
+| idata-func-epg1-same-apnParental| http://mirror-h.org |Parental| 
+| idata-func-epg1-same-apnParental| http://anonymizer.com |Parental| 
+| idata-func-epg1-same-apnParental| http://webcache.googleusercontent.com |Parental| 
+| idata-func-epg1-same-apnParental| http://translate.google.com |Parental| 
+| idata-func-epg1-same-apnParental| http://match.com |Parental| 
+| idata-func-epg1-same-apnParental| http://mtnmatchmaking.com |Parental| 
+| idata-func-epg1-same-apnParental| http://finance.yahoo.com |Parental| 
+| idata-func-epg1-same-apnParental| http://etrade.com |Parental| 
+| idata-func-epg1-same-apnParental| http://bankofamerica.com |Parental| 
+| idata-func-epg1-same-apnParental| http://irpoker.com |Parental| 
+| idata-func-epg1-same-apnParental| http://calottery.com |Parental| 
+| idata-func-epg1-same-apnParental| http://piratesarena.net |Parental| 
+| idata-func-epg1-same-apnParental| http://rustguides.com |Parental| 
+| idata-func-epg1-same-apnParental| http://ebay.com |Parental| 
+| idata-func-epg1-same-apnParental| http://www.amazon.com |Parental| 
+| idata-func-epg1-same-apnParental| http://rent.com |Parental| 
+| idata-func-epg1-same-apnParental| http://pricewatch.com |Parental| 
+| idata-func-epg1-same-apnParental| http://lingr.com |Parental| 
+| idata-func-epg1-same-apnParental| http://aim.com |Parental| 
+| idata-func-epg1-same-apnParental| http://gmail.com |Parental| 
+| idata-func-epg1-same-apnParental| http://freelists.org |Parental| 
+| idata-func-epg1-same-apnParental| http://4chan.org |Parental| 
+| idata-func-epg1-same-apnParental| http://python-forum.org |Parental| 
+| idata-func-epg1-same-apnParental| http://www.blogger.com |Parental| 
+| idata-func-epg1-same-apnParental| http://zedge.net/wallpapers/ |Parental| 
+| idata-func-epg1-same-apnParental| http://download.com |Parental| 
+| idata-func-epg1-same-apnParental| http://dropbox.com |Parental| 
+| idata-func-epg1-same-apnParental| http://netflix.com |Parental| 
+| idata-func-epg1-same-apnParental| http://indeed.com |Parental| 
+| idata-func-epg1-same-apnParental| http://www.careerinfonet.org |Parental| 
+| idata-func-epg1-same-apnParental| http://specialfriedrice.net |Parental| 
+| idata-func-epg1-same-apnParental| http://breastcancermarathon.com |Parental| 
+| idata-func-epg1-same-apnParental| http://whatstrending.com |Parental| 
+| idata-func-epg1-same-apnParental| http://penthousemagazine.com |Parental| 
+| idata-func-epg1-same-apnParental| http://marlboro.com |Parental| 
+| idata-func-epg1-same-apnParental| http://rooseveltdenver.com |Parental| 
+| idata-func-epg1-same-apnParental| http://johnniewalker.com |Parental| 
+| idata-func-epg1-same-apnParental| http://caffieri.com |Parental| 
+| idata-func-epg1-same-apnParental| http://cosplay.com |Parental| 
+| idata-func-epg1-same-apnParental| http://realvoodoos.com |Parental| 
+| idata-func-epg1-same-apnParental| http://parenting.com |Parental| 
+| idata-func-epg1-same-apnParental| http://mlb.com |Parental| 
+| idata-func-epg1-same-apnParental| http://espn.com |Parental| 
+| idata-func-epg1-same-apnParental| http://www.divorcesupport.com/ |Parental| 
+| idata-func-epg1-same-apnParental| http://tripadvisor.com |Parental| 
+| idata-func-epg1-same-apnParental| http://asta.org |Parental| 
+| idata-func-epg1-same-apnParental| http://rtd-denver.com |Parental| 
+| idata-func-epg1-same-apnParental| http://marriott.com |Parental| 
+| idata-func-epg1-same-apnParental| http://www.spinninrecords.com |Parental| 
+| idata-func-epg1-same-apnParental| http://madamepoot.com |Parental| 
+| idata-func-epg1-same-apnParental| http://celebritynetworth.com |Parental| 
+| idata-func-epg1-same-apnParental| http://goodfoodgourmet.com |Parental| 
+| idata-func-epg1-same-apnParental| http://broadwaycomedyclub.com |Parental| 
+| idata-func-epg1-same-apnParental| http://scborromeo.org |Parental| 
+| idata-func-epg1-same-apnParental| http://religioustolerance.org |Parental| 
+| idata-func-epg1-same-apnParental| http://politifact.com |Parental| 
+| idata-func-epg1-same-apnParental| http://pubmatic.com |Parental| 
+| idata-func-epg1-same-apnParental| http://allcanadacontests.com |Parental| 
+| idata-func-epg1-same-apnParental| http://automotive.com |Parental| 
+| idata-func-epg1-same-apnParental| http://accenture.com |Parental| 
+| idata-func-epg1-same-apnParental| http://microsoft.com |Parental| 
+| idata-func-epg1-same-apnParental| http://newlosangeles.org |Parental| 
+| idata-func-epg1-same-apnParental| http://gov.ph |Parental| 
+| idata-func-epg1-same-apnParental| http://www.cpmc.org |Parental| 
+| idata-func-epg1-same-apnParental| http://voip.com |Parental| 
+| idata-func-epg1-same-apnParental| http://sealswcc.com |Parental| 
+| idata-func-epg1-same-apnParental| http://utorrent.com |Parental| 
+| idata-func-epg1-same-apnParental| http://knittinghelp.com |Parental| 
+| idata-func-epg1-same-apnParental| http://wikipedia.org |Parental| 
+| idata-func-epg1-same-apnParental| http://google.com |Parental| 
+| idata-func-epg1-same-apnParental| http://tradesexualhealth.com |Parental| 
+| idata-func-epg1-same-apnParental| http://groupme.com |Parental| 
+| idata-func-epg1-same-apnParental| http://klab.com |Parental| 
+| idata-func-epg1-same-apnParental| http://cloudflare.com |Parental| 
+| idata-func-epg1-same-apnParental| http://pbskids.org |Parental| 
+| idata-func-epg1-same-apnParental| http://lingeriefw.com |Parental| 
+| idata-func-epg1-same-apnParental| http://aspenartmuseum.org |Parental| 
+| idata-func-epg1-same-apnParental| http://hostgator.com |Parental| 
+| idata-func-epg1-same-apnParental| http://madd.org |Parental| 
+| idata-func-epg1-same-apnParental| http://flickr.com |Parental| 
+| idata-func-epg1-same-apnParental| http://zedge.net/ringtones/ |Parental| 
+| idata-func-epg1-same-apnParental| http://fashionspot.com |Parental| 
+| idata-func-epg1-same-apnParental| http://appstore.com |Parental| 
+| idata-func-epg1-same-apnParental| http://japaneseemoticons.net |Parental| 
+| idata-func-epg1-same-apnParental| http://verizonwireless.com |Parental| 
+| idata-func-epg1-same-apnParental| http://lancasterag.com |Parental| 
+| idata-func-epg1-same-apnParental| http://architecture.com |Parental| 
+| idata-func-epg1-same-apnParental| http://liuna.org |Parental| 
+| idata-func-epg1-same-apnParental| http://ebooks.com |Parental| 
+| idata-func-epg1-same-apnParental| http://dnsdynamic.org |Parental| 
+| idata-func-epg1-same-apnParental| http://aghepodlln |Parental| 
+| idata-func-epg1-same-apnParental| http://law.com |Parental| 
+| idata-func-epg1-same-apnParental| http://boulderdowntown.com |Parental| 
+| idata-func-epg1-same-apnParental| http://time.com |Parental| 
+| idata-func-epg1-same-apnParental| http://chicagoveterinaryemergency.com |Parental| 
+| idata-func-epg1-same-apnParental| http://123freemovies.net |Parental| 
+| idata-func-epg1-same-apnParental| http://192.168.1.1 |Parental| 
+| idata-func-epg1-same-apnParental| http://mequonnaturepreserve.org |Parental| 
+| idata-func-epg1-same-apnParental| http://sciencemag.org |Parental| 
+| idata-func-epg1-same-apnParental| http://aimovement.org |Parental| 
+| idata-func-epg1-same-apnParental| http://up.com |Parental| 
+| idata-func-epg1-same-apnParental| http://www.hofferphoto.com/ |Parental| 
+| idata-func-epg1-same-apnParental| http://www.dmns.org/ |Parental| 
+| idata-func-epg1-same-apnParental| http://www.khanacademy.org/ |Parental| 
+| idata-func-epg1-same-apnParental| http://www.swarmapp.com |Parental| 
+| idata-func-epg1-same-apnParental| http://www.facebook.com |Parental| 
+| idata-func-epg1-same-apnParental| http://www.linkedin.com |Parental| 
+| idata-func-epg1-same-apnParental| http://www.twitter.com |Parental| 
+| idata-func-epg1-same-apnParental| http://www.youtube.com |Parental| 
+| idata-func-epg1-same-apnParental| http://www.instagram.com |Parental| 
+| idata-func-epg1-same-apnParental| http://www.tumblr.com |Parental| 
+| idata-func-epg1-same-apnParental| http://plus.google.com |Parental| 
+| idata-func-epg1-same-apnParental| http://www.pinterest.com |Parental| 
+| idata-func-epg1-same-apnParental| http://www.vine.com |Parental| 
+| idata-func-epg1-same-apnParental| http://www.ask.fm |Parental| 
+| idata-func-epg1-same-apnParental| http://yikyakapp.com |Parental| 
+| idata-func-epg1-same-apnParental| http://www.wordpress.com |Parental| 
