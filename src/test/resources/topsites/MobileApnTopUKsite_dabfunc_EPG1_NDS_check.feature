@@ -101,7 +101,6 @@ Examples:
 | idata-func-epg1-same-apn| http://architecture.com |Parental| 
 | idata-func-epg1-same-apn| http://liuna.org |Parental| 
 | idata-func-epg1-same-apn| http://ebooks.com |Parental| 
-| idata-func-epg1-same-apn| http://dnsdynamic.org |Parental| 
 | idata-func-epg1-same-apn| http://law.com |Parental| 
 | idata-func-epg1-same-apn| http://boulderdowntown.com |Parental| 
 | idata-func-epg1-same-apn| http://time.com |Parental| 
@@ -114,7 +113,5 @@ Examples:
 | idata-func-epg1-same-apn| http://www.hofferphoto.com/ |Parental| 
 | idata-func-epg1-same-apn| http://www.dmns.org/ |Parental| 
 | idata-func-epg1-same-apn| http://www.swarmapp.com |Parental| 
-| idata-func-epg1-same-apn| http://www.pinterest.com |Parental| 
-| idata-func-epg1-same-apn| http://www.vine.com |Parental| 
 | idata-func-epg1-same-apn| http://www.ask.fm |Parental| 
 | idata-func-epg1-same-apn| http://yikyakapp.com |Parental| 
