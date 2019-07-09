@@ -21,7 +21,7 @@ Feature: Using Android test Mobile Data Connections FUNC NDS HTTP CAT check
 |idata-func-epg1-same-again| http://kkk.com | 18 |
 |idata-func-epg1-same-again| http://peacefulpillhandbook.com | 18 |
 |idata-func-epg1-same-again| http://xhamster.com | 18 |
-|idata-func-epg1-same-again| http://www.com | 18 |panionsescorts.com | 18 |
+|idata-func-epg1-same-again| http://www.companionsescorts.com | 18 |
 |idata-func-epg1-same-again| http://boodigo.com | 18 |
 |idata-func-epg1-same-again| http://mirror-h.org | 18 |
 |idata-func-epg1-same-again| http://anonymizer.com | 18 |
@@ -56,7 +56,7 @@ Feature: Using Android test Mobile Data Connections FUNC NDS HTTP CAT check
 |wap-func-epg1-same-again| http://kkk.com | 18 |
 |wap-func-epg1-same-again| http://peacefulpillhandbook.com | 18 |
 |wap-func-epg1-same-again| http://xhamster.com | 18 |
-|wap-func-epg1-same-again| http://www.com | 18 |panionsescorts.com | 18 |
+|wap-func-epg1-same-again| http://www.companionsescorts.com | 18 |
 |wap-func-epg1-same-again| http://boodigo.com | 18 |
 |wap-func-epg1-same-again| http://mirror-h.org | 18 |
 |wap-func-epg1-same-again| http://anonymizer.com | 18 |
