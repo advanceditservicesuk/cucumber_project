@@ -10,17 +10,17 @@ Feature: Using Android test Mobile Data Connections FUNC NDS HTTP O2 Tobacco Kid
 
     Examples: 
  | apnname                         | url                      					| title |
- | idata-func-epg1   		   |  http://www.holismokes.com/ 				| Parental |
- | idata-func-epg1-same-apn        |  http://www.m.vapestick.co.uk/ 				| Parental |
- | idata-func-epg1-same-apn        |  http://www.ukvapers.org/ 					| Parental |
- | idata-func-epg1-same-apn        |  http://www.cloud9vaping.co.uk/ 				| Parental |
- | idata-func-epg1-same-apn        |  http://www.friendsofhabanos.com/ 				| Parental |
- | idata-func-epg1-same-apn        |  http://www.e-cig-reviews.com/ 				| Parental |
- | idata-func-epg1-same-apn        |  http://www.o2-tobaccotokids.incompass.netstar-inc.com/ 	| Parental |
- | wap-func-epg1   		   |  http://www.holismokes.com/ 				| Parental |
- | wap-func-epg1-same-apn   	   |  http://www.m.vapestick.co.uk/ 				| Parental |
- | wap-func-epg1-same-apn          |  http://www.ukvapers.org/ 					| Parental |
- | wap-func-epg1-same-apn          |  http://www.cloud9vaping.co.uk/ 				| Parental |
- | wap-func-epg1-same-apn          |  http://www.friendsofhabanos.com/ 				| Parental |
- | wap-func-epg1-same-apn          |  http://www.e-cig-reviews.com/ 				| Parental |
- | wap-func-epg1-same-apn          |  http://www.o2-tobaccotokids.incompass.netstar-inc.com/ 	| Parental |
+ | idata-func-epg1   		   |  http://www.holismokes.com/ 				| 18 |
+ | idata-func-epg1-same-apn        |  http://www.m.vapestick.co.uk/ 				| 18 |
+ | idata-func-epg1-same-apn        |  http://www.ukvapers.org/ 					| 18 |
+ | idata-func-epg1-same-apn        |  http://www.cloud9vaping.co.uk/ 				| 18 |
+ | idata-func-epg1-same-apn        |  http://www.friendsofhabanos.com/ 				| 18 |
+ | idata-func-epg1-same-apn        |  http://www.e-cig-reviews.com/ 				| 18 |
+ | idata-func-epg1-same-apn        |  http://www.o2-tobaccotokids.incompass.netstar-inc.com/ 	| 18 |
+ | wap-func-epg1   		   |  http://www.holismokes.com/ 				| 18 |
+ | wap-func-epg1-same-apn   	   |  http://www.m.vapestick.co.uk/ 				| 18 |
+ | wap-func-epg1-same-apn          |  http://www.ukvapers.org/ 					| 18 |
+ | wap-func-epg1-same-apn          |  http://www.cloud9vaping.co.uk/ 				| 18 |
+ | wap-func-epg1-same-apn          |  http://www.friendsofhabanos.com/ 				| 18 |
+ | wap-func-epg1-same-apn          |  http://www.e-cig-reviews.com/ 				| 18 |
+ | wap-func-epg1-same-apn          |  http://www.o2-tobaccotokids.incompass.netstar-inc.com/ 	| 18 |
