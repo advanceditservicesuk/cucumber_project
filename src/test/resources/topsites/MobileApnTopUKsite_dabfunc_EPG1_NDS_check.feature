@@ -77,16 +77,13 @@ Examples:
 | idata-func-epg1-same-apn| http://automotive.com |Parental| 
 | idata-func-epg1-same-apn| http://accenture.com |Parental| 
 | idata-func-epg1-same-apn| http://newlosangeles.org |Parental| 
-| idata-func-epg1-same-apn| http://gov.ph |Parental| 
 | idata-func-epg1-same-apn| http://www.cpmc.org |Parental| 
 | idata-func-epg1-same-apn| http://voip.com |Parental| 
 | idata-func-epg1-same-apn| http://sealswcc.com |Parental| 
 | idata-func-epg1-same-apn| http://utorrent.com |Parental| 
 | idata-func-epg1-same-apn| http://knittinghelp.com |Parental| 
 | idata-func-epg1-same-apn| http://tradesexualhealth.com |Parental| 
-| idata-func-epg1-same-apn| http://groupme.com |Parental| 
 | idata-func-epg1-same-apn| http://klab.com |Parental| 
-| idata-func-epg1-same-apn| http://pbskids.org |Parental| 
 | idata-func-epg1-same-apn| http://lingeriefw.com |Parental| 
 | idata-func-epg1-same-apn| http://aspenartmuseum.org |Parental| 
 | idata-func-epg1-same-apn| http://hostgator.com |Parental| 
