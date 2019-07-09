@@ -10,7 +10,7 @@ Feature: Using Android test Mobile Data Connections FUNC NDS HTTP O2 Alcohol Kid
 
     Examples: 
  | apnname                         | url                      								 | title |
- | idata-func-epg1   		   |  http://www.thestudentguide.com/survival_guide/article/student_drinking_games_hi_bob| Parental |
- | idata-func-epg1-same-apn        |  http://www.o2-alcoholtokids.incompass.netstar-inc.com/ 		                 | Parental |
- | wap-func-epg1   		   |  http://www.thestudentguide.com/survival_guide/article/student_drinking_games_hi_bob| Parental |
- | wap-func-epg1-same-apn   	   |  http://www.o2-alcoholtokids.incompass.netstar-inc.com/ 				| Parental |
+ | idata-func-epg1   		   |  http://www.thestudentguide.com/survival_guide/article/student_drinking_games_hi_bob| 18 |
+ | idata-func-epg1-same-apn        |  http://www.o2-alcoholtokids.incompass.netstar-inc.com/ 		                 | 18 |
+ | wap-func-epg1   		   |  http://www.thestudentguide.com/survival_guide/article/student_drinking_games_hi_bob| 18 |
+ | wap-func-epg1-same-apn   	   |  http://www.o2-alcoholtokids.incompass.netstar-inc.com/ 				| 18 |
