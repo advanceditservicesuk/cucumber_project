@@ -15,7 +15,6 @@ Feature: Using Android test Mobile Data Connections FUNC NDS HTTP CAT check
 |idata-func-epg1-same-again| http://specialfriedrice.net/ | 18 |
 |idata-func-epg1-same-again| http://fakepassport.info | 18 |
 |idata-func-epg1-same-again| http://www.drug-testing-detox.com | 18 |
-|idata-func-epg1-same-again| http://rxlist.com | 18 |
 |idata-func-epg1-same-again| http://www.marijuana.com | 18 |
 |idata-func-epg1-same-again| http://www.terroristwebsites.info | 18 |
 |idata-func-epg1-same-again| http://kkk.com | 18 |
@@ -24,9 +23,6 @@ Feature: Using Android test Mobile Data Connections FUNC NDS HTTP CAT check
 |idata-func-epg1-same-again| http://www.companionsescorts.com | 18 |
 |idata-func-epg1-same-again| http://boodigo.com | 18 |
 |idata-func-epg1-same-again| http://mirror-h.org | 18 |
-|idata-func-epg1-same-again| http://anonymizer.com | 18 |
-|idata-func-epg1-same-again| http://utorrent.com | 18 |
-|idata-func-epg1-same-again| http://verizonwireless.com | 18 |
 |idata-func-epg1-same-again| http://102.incompass.netstar-inc.com | 18 |
 |idata-func-epg1-same-again| http://103.incompass.netstar-inc.com | 18 |
 |idata-func-epg1-same-again| http://104.incompass.netstar-inc.com | 18 |
@@ -39,10 +35,8 @@ Feature: Using Android test Mobile Data Connections FUNC NDS HTTP CAT check
 |idata-func-epg1-same-again| http://401.incompass.netstar-inc.com | 18 |
 |idata-func-epg1-same-again| http://402.incompass.netstar-inc.com | 18 |
 |idata-func-epg1-same-again| http://403.incompass.netstar-inc.com | 18 |
-|idata-func-epg1-same-again| http://405.incompass.netstar-inc.com | 18 |
 |idata-func-epg1-same-again| http://1505.incompass.netstar-inc.com | 18 |
 |idata-func-epg1-same-again| http://20026.incompass.netstar-inc.com | 18 |
-|idata-func-epg1-same-again| http://20063.incompass.netstar-inc.com | 18 |
 |idata-func-epg1-same-again| http://20064.incompass.netstar-inc.com | 18 |
 |idata-func-epg1-same-again| http://20066.incompass.netstar-inc.com | 18 |
 |wap-func-epg1           | http://www.xhaus.com/headers | xhaus |
@@ -50,7 +44,6 @@ Feature: Using Android test Mobile Data Connections FUNC NDS HTTP CAT check
 |wap-func-epg1-same-again| http://specialfriedrice.net/ | 18 |
 |wap-func-epg1-same-again| http://fakepassport.info | 18 |
 |wap-func-epg1-same-again| http://www.drug-testing-detox.com | 18 |
-|wap-func-epg1-same-again| http://rxlist.com | 18 |
 |wap-func-epg1-same-again| http://www.marijuana.com | 18 |
 |wap-func-epg1-same-again| http://www.terroristwebsites.info | 18 |
 |wap-func-epg1-same-again| http://kkk.com | 18 |
@@ -59,9 +52,6 @@ Feature: Using Android test Mobile Data Connections FUNC NDS HTTP CAT check
 |wap-func-epg1-same-again| http://www.companionsescorts.com | 18 |
 |wap-func-epg1-same-again| http://boodigo.com | 18 |
 |wap-func-epg1-same-again| http://mirror-h.org | 18 |
-|wap-func-epg1-same-again| http://anonymizer.com | 18 |
-|wap-func-epg1-same-again| http://utorrent.com | 18 |
-|wap-func-epg1-same-again| http://verizonwireless.com | 18 |
 |wap-func-epg1-same-again| http://102.incompass.netstar-inc.com | 18 |
 |wap-func-epg1-same-again| http://103.incompass.netstar-inc.com | 18 |
 |wap-func-epg1-same-again| http://104.incompass.netstar-inc.com | 18 |
@@ -74,9 +64,7 @@ Feature: Using Android test Mobile Data Connections FUNC NDS HTTP CAT check
 |wap-func-epg1-same-again| http://401.incompass.netstar-inc.com | 18 |
 |wap-func-epg1-same-again| http://402.incompass.netstar-inc.com | 18 |
 |wap-func-epg1-same-again| http://403.incompass.netstar-inc.com | 18 |
-|wap-func-epg1-same-again| http://405.incompass.netstar-inc.com | 18 |
 |wap-func-epg1-same-again| http://1505.incompass.netstar-inc.com | 18 |
 |wap-func-epg1-same-again| http://20026.incompass.netstar-inc.com | 18 |
-|wap-func-epg1-same-again| http://20063.incompass.netstar-inc.com | 18 |
 |wap-func-epg1-same-again| http://20064.incompass.netstar-inc.com | 18 |
 |wap-func-epg1-same-again| http://20066.incompass.netstar-inc.com | 18 |
