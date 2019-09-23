@@ -1,16 +1,16 @@
-  @mobile
-  Feature: Using Android test Mobile Data Connections Check Http websites
+ @mobile
+Feature: Using Android test Mobile Data Connections FUNC NDS HTTP CAT check
 
   Scenario Outline: Using Android device check mobile apn "<apnname>"  by visting UK site "<title>".
-      And Using Android device serialno "2adbc704fc0d7ece" set apn "<apnname>"
-      And Check mobile data connection for serialno "2adbc704fc0d7ece"
-      And Dismiss Android Alerts
-      And Using Android device serialno "2adbc704fc0d7ece" open chrome
-      And open browser and enter url "<url>" and check if page loaded and contains page title "<title>"
+    And Using Android device serialno "2adbc704fc0d7ece" set apn "<apnname>"
+    And Check mobile data connection for serialno "2adbc704fc0d7ece"
+    And Dismiss Android Alerts
+    And Using Android device serialno "2adbc704fc0d7ece" open chrome
+    And open browser and enter url "<url>" and check if page loaded and contains page title "<title>"
 
-Examples:
-|apnname|url|title|
-|idata-func-epg1|http://rtb.locpub.com||
+    Examples:
+			| apnname                  | url                      | title |
+		|idata-func-epg1|http://rtb.locpub.com||
 |idata-func-epg1-same-apn|http://www.livescores.com||
 |idata-func-epg1-same-apn|http://mlo.allfreeknitting.com||
 |idata-func-epg1-same-apn|http://reporting.mainlinemenswear.co.uk||
