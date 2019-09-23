@@ -881,7 +881,6 @@ public static boolean linkExists(String URLName){
 			try
 			{
 					androiddriver.manage().timeouts().pageLoadTimeout(pageLoadTimeOut, TimeUnit.SECONDS );
-					weburl.replaceAll("\\s+","");
 					androiddriver.get(weburl);
 			}
 			catch ( Exception e)
